@@ -1,0 +1,23 @@
+body{
+    background-color: plum;
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 400px;
+    margin-top: 5%;
+    border-radius: 100px;
+}
+
+button {
+    text-align: center;
+    background-color: rgba(227, 136, 218, 0.888);
+    border-color: pink ;
+    color:#ee005f;
+    border-radius: 100px;
+    
+}
+
+h1{
+    text-align: center;
+}
