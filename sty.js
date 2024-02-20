@@ -15,10 +15,9 @@ function init() {
 }
 
 function expandYesButton(button, clickCount) {
-    var newWidth = 50 + clickCount * 10; // เพิ่มขนาดทีละ 10 พิกเซลทุกครั้งที่คลิก
+    var newWidth = 50 + clickCount * 10; 
     var newHeight = 50 + clickCount * 10;
-    var newSize = 16 + clickCount * 2; // เพิ่มขนาดตัวหนังสือทีละ 2 พิกเซลทุกครั้งที่คลิก
-
+    var newSize = 16 + clickCount * 2; 
     button.style.width = newWidth + "px";
     button.style.height = newHeight + "px";
     button.style.fontSize = newSize + "px";
