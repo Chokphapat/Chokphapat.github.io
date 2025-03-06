@@ -1,31 +1,37 @@
-/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #FAF9F3;
+    color: #54627F;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    text-align: center;
+    line-height: 2; /* เพิ่มระยะห่างระหว่างบรรทัด */
 }
-
-/* Container Layout */
+p {
+    margin-bottom: 15px; /* เพิ่มระยะห่างด้านล่างของย่อหน้า */
+}
+img {
+    max-width: 50px;
+    height: 50px;
+    border: 2px solid #54627F;
+}
 .container {
     display: flex;
-    min-height: 100vh;
 }
 
-/* Sidebar Navigation */
 .sidebar {
     width: 250px;
     background-color: #333;
-    color: white;
     padding: 20px;
     position: fixed;
-    height: 100%;
+    height: 100vh;
 }
 
 .sidebar h2 {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin-bottom: 20px;
+    color: #8fd8f0;
 }
 
 .sidebar ul {
@@ -33,67 +39,43 @@ body {
     padding: 0;
 }
 
-.sidebar ul li {
-    margin: 10px 0;
-}
-
 .sidebar ul li a {
-    color: white;
-    text-decoration: none;
     display: block;
     padding: 10px;
-    background-color: #444;
+    text-decoration: none;
+    color: #8fd8f0;
+    background: #444;
     border-radius: 5px;
+    margin-bottom: 10px;
     transition: 0.3s;
 }
 
 .sidebar ul li a:hover {
-    background-color: #555;
+    background: #8fd8f0;
+    color: #000;
 }
 
-/* Main Content */
 .content {
     margin-left: 270px;
     padding: 20px;
     flex-grow: 1;
-    background-color: white;
-    max-width: 900px;
 }
 
 h1 {
-    text-align: center;
-    font-size: 26px;
+    font-size: 24px;
+    text-shadow: 2px 2px #cdf5eb;
 }
 
 section {
-    margin-bottom: 30px;
+    background: #222;
     padding: 15px;
-    background-color: #f9f9f9;
-    border-left: 5px solid #007BFF;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #8fd8f0;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 0px #4195cc;
 }
 
-h2 {
-    font-size: 22px;
-    margin-bottom: 10px;
-    color: #007BFF;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-    
-    .sidebar {
-        width: 100%;
-        position: static;
-        height: auto;
-        text-align: center;
-    }
-    
-    .content {
-        margin-left: 0;
-        padding: 15px;
-    }
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #8fd8f0;
 }
