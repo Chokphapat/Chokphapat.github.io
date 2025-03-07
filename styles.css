@@ -1,7 +1,7 @@
 body {
     font-family: 'Press Start 2P', cursive;
-    background-color: #FAF9F3;
-    color: #54627F;
+    background-color: #bababab8;
+    color: #ffffff;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -63,19 +63,23 @@ img {
 
 h1 {
     font-size: 24px;
-    text-shadow: 2px 2px #cdf5eb;
+    text-shadow: 2px 2px #000000;
 }
 
 section {
-    background: #222;
+    background: #000000;
     padding: 15px;
     border: 3px solid #8fd8f0;
     margin-bottom: 20px;
     box-shadow: 4px 4px 0px #4195cc;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 img {
     max-width: 100%;
     height: auto;
     border: 2px solid #8fd8f0;
+    border-radius: 20px;
 }
